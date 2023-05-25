@@ -1,0 +1,7 @@
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  font-family: 'Anton', sans-serif;
+  color: white;
+}

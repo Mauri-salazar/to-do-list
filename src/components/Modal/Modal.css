@@ -1,0 +1,14 @@
+.Modalbackground {
+  border: solid 10px darkturquoise;
+  border-radius: 12px;
+  background-color: rgba(32, 35, 41, .8);
+  width: 50%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: fixed;
+  bottom: 100px;
+  left: 100px;
+}
