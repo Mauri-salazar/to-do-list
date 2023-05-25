@@ -8,7 +8,6 @@ import { TodoLoading } from "../components/TodoLoading";
 import { TodoError } from "../components/TodoError";
 import { EmpyTodo } from "../components/EmpyTodo";
 import { TodoContext } from "../components/TodoContext";
-import { Modal } from "../components/Modal";
 
 
 export const AppIU = () => {
@@ -18,9 +17,6 @@ export const AppIU = () => {
     searchedTodo,
     completeTodo,
     deleteTodo,
-    openModal,
-
-    handlerOpenModal,
   } = useContext(TodoContext);
 
 
@@ -28,9 +24,8 @@ export const AppIU = () => {
     <Fragment>
       <CreateTodo />
       <TodoSearch/>
-      <TodoCounter/>
+      {loading ? <TodoLoading loading={loading} /> : <TodoCounter />}
       <TodoList>
-        {loading && <TodoLoading />}
         {error && <TodoError />}
         {(!loading && searchedTodo.length === 0) && <EmpyTodo />}
         {

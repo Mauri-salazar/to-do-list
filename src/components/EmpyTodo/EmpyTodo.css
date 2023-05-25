@@ -1,0 +1,13 @@
+.add-emoji-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+.add-emoji {
+  font-size: 20vh;
+}
+.add-emoji-container h5 {
+  font-family: 'Anton', sans-serif;
+  color: white;
+}

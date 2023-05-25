@@ -12,8 +12,9 @@ export const TodoCounter = () => {
     <Fragment>
         <h1 className="title" >
           {
-            totalTodo === completedTodo ? 'You completed all the taks'
-            : `You completed ${completedTodo} of ${totalTodo} taks`
+            totalTodo === completedTodo ?
+            `🎉YOU COMPLETED ALL THE TO-DOS!!🥳`
+            : `👩‍🏫YOU COMPLETED ${completedTodo} OF ${totalTodo} TO-DOS👨‍🏫`
           }
         </h1>
     </Fragment>
