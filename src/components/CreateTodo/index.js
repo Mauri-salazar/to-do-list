@@ -39,11 +39,12 @@ export const CreateTodo = () => {
         openModal && (
           <Modal>
             <form onSubmit={onSubmitTodo}>
-              <label>Create a new to-do</label>
+              <label>Create a new to-do😁</label>
               <textarea
                 value={newTodoValue}
                 onChange={onChange}
                 placeholder="Write a new to-do"
+                required
               />
               <div className="form-container-btn">
                 <button

@@ -12,3 +12,11 @@
   bottom: 100px;
   left: 100px;
 }
+
+@media (max-width: 600px) {
+  .Modalbackground {
+    border: 1px solid darkturquoise;
+    width: 100%;
+    left: 0;
+  }
+}

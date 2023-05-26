@@ -1,14 +1,15 @@
 .btn {
   color: white;
   cursor: pointer;
-  width: 64px;
+  width: 4.4rem;
   height: 64px;
   border-radius: 10px;
   background-color: #61DAFA;
-  box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+  box-shadow: 0px 5px 40px rgba(97, 218, 250, 0.5);
   bottom: 87%;
   left: 1%;
   border: none;
+  margin-left: 1%;
   font-weight: bold;
   position: fixed;
   z-index: 1;
@@ -63,4 +64,18 @@ textarea:hover {
 
 .form-btn:hover {
   background-color: white;
+}
+
+@media (max-width: 600px) {
+  .btn {
+    width: 4rem;
+    border-radius: 50%;
+    bottom: 13%;
+    left: 75%;
+    border: none;
+    margin-left: 1%;
+    font-weight: bold;
+    position: fixed;
+    z-index: 1;
+  }
 }

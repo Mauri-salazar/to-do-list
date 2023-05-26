@@ -16,7 +16,7 @@ export const TodoSearch = () => {
     <Fragment>
       <div className="inp">
         <input
-            placeholder="Search your taks"
+            placeholder="Search your to-dos"
             autoComplete="of"
             value={searchValue}
             onChange={filterSearchValue}

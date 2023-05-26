@@ -7,7 +7,7 @@
   width: 50%;
   height: 6vh;
   border: 2px solid #61DAFA;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .inp input::placeholder {
   font-weight: 100;
@@ -17,4 +17,15 @@
 
 .inp input:focus {
   background-color: #61DAFA;
+}
+
+@media (max-width: 600px) {
+  .inp {
+    width: 100%;
+    padding-top: 5%;
+    margin-left: 0%;
+  }
+  .inp input {
+    width: 100%;
+  }
 }

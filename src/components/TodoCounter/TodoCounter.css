@@ -1,7 +1,24 @@
 .title {
+  color: white;
+  text-shadow: 0 0 20px aqua ;
   display: flex;
   justify-content: center;
   margin-top: 3%;
   font-family: 'Anton', sans-serif;
-  color: white;
 }
+
+@media (max-width: 600px) {
+  .title {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 10%;
+    text-align: center;
+  }
+}
+
+/* Móvil pequeño: 360 x 640 px
+Móvil medio: 375 x 667 px
+Smartphone grande: 720 x 1280 px
+Ordenador portátil medio: 1366 x 768 px
+Ordenador de escritorio medio: 1440 x 900 px
+PC de escritorio grande: 1920 x 1080 px */
