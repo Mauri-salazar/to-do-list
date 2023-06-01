@@ -1,6 +1,6 @@
 import React from "react";
 import DotLoader from "react-spinners/DotLoader";
-import './TodoLoading.css';
+import './/TodoLoading.css';
 
 export const TodoLoading = ({loading}) => {
 

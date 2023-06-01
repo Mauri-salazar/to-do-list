@@ -1,4 +1,4 @@
-import './TodoItem.css';
+import './/TodoItem.css';
 import { BsTrash3, BsCheck2Circle } from 'react-icons/bs';
 
 export const TodoItem = ({text, completed, onComplete,  onDelete}) => {

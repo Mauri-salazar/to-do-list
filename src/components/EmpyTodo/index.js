@@ -1,5 +1,5 @@
 import React from "react";
-import './EmpyTodo.css';
+import './/EmpyTodo.css';
 
 export const EmpyTodo = () => {
   return (
